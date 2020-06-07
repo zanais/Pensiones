@@ -39,3 +39,53 @@
     background-color: white;
     color: black;
 }
+.tres{
+    position: absolute;
+    background-color: #172916;
+    color: white;
+    border: 2px solid #172916;
+    font-size: 36px;
+    line-height: 42px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 56px;
+    left: 150px;
+    top: 120px;
+    text-align: center;
+}
+.cuatro{
+    position: absolute;
+    background-color: #172916;
+    color: white;
+    border: 2px solid #172916;
+    font-size: 36px;
+    line-height: 42px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 56px;
+    left: 150px;
+    top: 220px;
+    text-align: center
+}
+.cinco{
+    position: absolute;
+    background-color: #172916;
+    color: white;
+    border: 2px solid #172916;
+    font-size: 36px;
+    line-height: 42px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 320px;
+    height: 56px;
+    left: 150px;
+    top: 320px;
+    text-align: center
+}
+input{
+    position: absolute;
+    left: 370px;
+    color: black;
+}

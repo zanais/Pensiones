@@ -2,7 +2,10 @@
     text-align: center;
 }
 ul{
-    list-style-type: none;
+    list-style-position: inside;
+}
+li{
+    font-size: 36px;
 }
 div{
     position: absolute;
@@ -11,14 +14,6 @@ div{
     top: 200px;
     width: 466px;
     height: 393px;
-}
-div.p{
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 .uno{
     position: absolute;
