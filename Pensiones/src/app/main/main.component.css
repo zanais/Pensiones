@@ -1,0 +1,61 @@
+.uno{
+    background-color: #172916;
+    color: white;
+    border: 2px solid #172916;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    top: 215px;
+    display: flex;
+    left: 150px;
+    position: absolute;
+    width: 419px;
+    height: auto;
+
+}
+.uno:hover{
+    background-color: white;
+    color:black
+}
+.dos{
+    background-color: #172916;
+    color: white;
+    border: 2px solid #172916;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    left: 150px;
+    top: 350px;
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+}
+.dos:hover{
+    background-color: white;
+    color:black;
+}
+p{
+    position: absolute;
+    width: 240px;
+    height: 199px;
+    left: 800px;
+    top: 180px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+}
