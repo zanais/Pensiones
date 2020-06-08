@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Usuario } from './../models/usuario';
 import { UsuarioService } from './../services/usuario.service';
 import { Component, OnInit } from '@angular/core';
@@ -11,7 +12,8 @@ import { Component, OnInit } from '@angular/core';
 
 export class Tramitar2Component implements OnInit{
     usuario={} as Usuario;
-    constructor(public usuarioService: UsuarioService){}
+    constructor(public usuarioService: UsuarioService){
+    }
 
     ngOnInit(){
         
