@@ -1,40 +1,9 @@
 <div>
     <h1>Seleccione la primera letra de su apellido</h1>
     <ul>
-        <li routerLink="/consultap2">A</li>
-        <li routerLink="/consultap2">B</li>
-        <li routerLink="/consultap2">C</li>
-        <li routerLink="/consultap2">D</li>
-        <li routerLink="/consultap2">E</li>
-        <li routerLink="/consultap2">F</li>
-        <li routerLink="/consultap2">G</li>
+        <li *ngFor="let letra of letras" routerLink="/consultap2">{{letra}}</li>
     </ul>
-    <ul>
-        <li routerLink="/consultap2">H</li>
-        <li routerLink="/consultap2">I</li>
-        <li routerLink="/consultap2">J</li>
-        <li routerLink="/consultap2">K</li>
-        <li routerLink="/consultap2">L</li>
-        <li routerLink="/consultap2">M</li>
-        <li routerLink="/consultap2">N</li>
-    </ul>
-    <ul>
-        <li routerLink="/consultap2">Ñ</li>
-        <li routerLink="/consultap2">O</li>
-        <li routerLink="/consultap2">P</li>
-        <li routerLink="/consultap2">Q</li>
-        <li routerLink="/consultap2">R</li>
-        <li routerLink="/consultap2">S</li>
-        <li routerLink="/consultap2">T</li>
-    </ul>
-    <ul>
-        <li routerLink="/consultap2">U</li>
-        <li routerLink="/consultap2">V</li>
-        <li routerLink="/consultap2">X</li>
-        <li routerLink="/consultap2">W</li>
-        <li routerLink="/consultap2">Y</li>
-        <li routerLink="/consultap2">Z</li>
-    </ul>
+    
     <button class="boton" routerLink="">Volver al inicio</button>
 </div>
 
