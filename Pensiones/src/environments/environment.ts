@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase:{
+    apiKey: "AIzaSyCre1MNynQs2ZLu1L99wCTeOhO4okbb-7A",
+    authDomain: "ihc-pensiones.firebaseapp.com",
+    databaseURL: "https://ihc-pensiones.firebaseio.com",
+    projectId: "ihc-pensiones",
+    storageBucket: "ihc-pensiones.appspot.com",
+    messagingSenderId: "122261071156",
+    appId: "1:122261071156:web:cb4a4a037717b706b17161"
+  }
 };
 
 /*

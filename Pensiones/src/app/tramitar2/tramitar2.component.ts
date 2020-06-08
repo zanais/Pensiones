@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Usuario } from './../models/usuario';
+import { UsuarioService } from './../services/usuario.service';
+import { Component, OnInit } from '@angular/core';
+
 
 @Component({
     selector:'tramitar2',
@@ -6,4 +9,18 @@ import { Component } from '@angular/core';
     styleUrls: ['./tramitar2.component.css']
 })
 
-export class Tramitar2Component{}
+export class Tramitar2Component implements OnInit{
+    usuario={} as Usuario;
+    constructor(public usuarioService: UsuarioService){}
+
+    ngOnInit(){
+        
+    }
+    addUsuario(){
+        if(this.usuario.name !== '' && this.usuario.apellido !=='' && this.usuario.correo !==''){
+        this.usuarioService.addUsuario(this.usuario);
+        this.usuario = {} as Usuario;
+    }
+}
+
+}
