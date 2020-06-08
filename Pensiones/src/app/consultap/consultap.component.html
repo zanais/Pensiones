@@ -1,9 +1,5 @@
 <div>
     <h1>Seleccione la primera letra de su apellido</h1>
-    <ul>
-        <li *ngFor="let letra of letras" routerLink="/consultap2">{{letra}}</li>
-    </ul>
-    
-    <button class="boton" routerLink="">Volver al inicio</button>
+    <button *ngFor="let letra of letras" class="boton" routerLink="/consultap2" [queryParams]="{apellido: letra}">{{letra}}</button>
 </div>
 

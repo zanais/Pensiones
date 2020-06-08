@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
     selector:'consultap2',
@@ -6,6 +7,13 @@ import { Component } from '@angular/core';
     styleUrls: ['./consultap2.component.css']
 })
 
-export class Consultap2Component{
-    
+export class Consultap2Component implements OnInit{
+  letraApellido: String;
+  constructor(private route: ActivatedRoute) {}
+  ngOnInit() {
+    this.route.queryParams.subscribe(params => {
+      this.letraApellido = params["apellido"]
+    });
+  }
+
 }
