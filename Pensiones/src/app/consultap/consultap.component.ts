@@ -15,7 +15,6 @@ export class ConsultapComponent implements OnInit{
         this.letras = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
     }
 
-    irConsultap2(letra: String) {
-      this.router.navigate(["/consultap2"], {queryParams: {apellido: letra}});
-    }
+    
+    
 }

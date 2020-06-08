@@ -1,8 +1,8 @@
-<h1>Escanea cada uno de los documentos requeridos</h1>
+<h1>Escanea y sube cada uno de los documentos requeridos</h1>
 <form (ngSubmit)="addDocumento()"> 
     <p class="tres">Acta de nacimiento: <input type="file" name="archivo1" [(ngModel)]="documento.archivo1" required></p>
     <p class="cuatro">CURP: <input type="file" name="archivo2" [(ngModel)]="documento.archivo2" required></p>
     <p class="cinco">Credencial ADIMSS: <input type="file" name="archivo3" [(ngModel)]="documento.archivo3" required></p>
-<button type="submit"class="uno" >Finalizar tramite</button>
-<button class="dos" routerLink="">Cancelar</button>
+    <button type="submit"class="uno" routerLink="/tramitar4" >Finalizar tramite</button>
+    <button class="dos" routerLink="">Cancelar</button>
 </form>

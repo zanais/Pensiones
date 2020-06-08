@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import {Fecha} from '../models/fecha';
+import { FechaService } from './../services/fecha.service';
 
 @Component({
     selector:'consultap2',
@@ -9,11 +11,16 @@ import { ActivatedRoute } from '@angular/router';
 
 export class Consultap2Component implements OnInit{
   letraApellido: String;
-  constructor(private route: ActivatedRoute) {}
+  fecha=[];
+
+  constructor(private route: ActivatedRoute, public fechaService:FechaService) {}
   ngOnInit() {
+    this.fechaService.getFecha().subscribe(fecha =>{
+      this.fecha = fecha;
+    });
     this.route.queryParams.subscribe(params => {
       this.letraApellido = params["apellido"]
-    });
+    }); 
   }
 
 }
