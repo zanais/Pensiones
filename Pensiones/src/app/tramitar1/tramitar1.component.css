@@ -19,8 +19,8 @@ p{
     border-radius: 10px;
     padding: 10px;
     width: 300px;
-    left: 150px;
-    top: 312px;
+    left: 250px;
+    top: 475px;
 }
 .uno:hover{
     background-color: white;
@@ -38,7 +38,7 @@ p{
     border-radius: 10px;
     padding: 10px;
     width: 300px;
-    top:312px;
+    top:475px;
     left: 750px;
 }
 .dos:hover{

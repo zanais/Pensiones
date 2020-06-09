@@ -2,18 +2,14 @@
     background-color: #172916;
     color: white;
     border: 2px solid #172916;
-    font-style: normal;
-    font-weight: normal;
     font-size: 36px;
-    line-height: 42px;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
     top: 215px;
-    display: flex;
     left: 150px;
     position: absolute;
-    width: 419px;
+    width: 420px;
     height: auto;
 
 }
@@ -25,18 +21,14 @@
     background-color: #172916;
     color: white;
     border: 2px solid #172916;
-    font-style: normal;
-    font-weight: normal;
     font-size: 36px;
-    line-height: 42px;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
     left: 150px;
     top: 350px;
-    display: flex;
     position: absolute;
-    width: 350px;
+    width: 420px;
     height: 100px;
 }
 .dos:hover{

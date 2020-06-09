@@ -1,8 +1,8 @@
 <h1>Rellenar el siguiente formulario</h1>
 <form (ngSubmit)="addUsuario()">
-    <p class="tres">Nombre: <input type="text" name="nombre" [(ngModel)]="usuario.name" required size="40" placeholder="Nombre:" ></p>
-    <p class="cuatro">Apellidos: <input type="text" name="apellidos" [(ngModel)]="usuario.apellido" required size="40" placeholder="Apellidos:" ></p>
-    <p class="cinco">Correo electronico: <input type="email" name="correo" [(ngModel)]="usuario.correo" required size="40" placeholder="Correo elctronico:" ></p>
+    <p class="tres">Nombre: <input type="text" name="nombre" [(ngModel)]="usuario.name" required size="40" placeholder="Nombre(s):" ></p>
+    <p class="cuatro">Apellidos: <input type="text" name="apellidos" [(ngModel)]="usuario.apellido" required size="40" placeholder="Apellido(s):" ></p>
+    <p class="cinco">Correo electrónico: <input type="email" name="correo" [(ngModel)]="usuario.correo" required size="40" placeholder="Correo electrónico:" ></p>
     <button type="submit" class="uno" routerLink="/tramitar3" >Continuar</button>
     <button class="dos" routerLink="">Regresar</button>
 </form>
