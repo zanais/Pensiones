@@ -1,1 +1,1 @@
-# Proyecto final de la materia de Interacción humana-computadora
+# Proyecto final de IHC
